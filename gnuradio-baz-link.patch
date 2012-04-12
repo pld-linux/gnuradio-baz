@@ -1,0 +1,11 @@
+--- gr-baz/lib/Makefile.am~	2012-04-12 22:07:04.000000000 +0200
++++ gr-baz/lib/Makefile.am	2012-04-12 22:41:44.824324188 +0200
+@@ -66,7 +66,7 @@
+ #	howto_square2_ff.cc
+ 
+ libgnuradio_baz_la_LIBADD = \
+-	$(GNURADIO_CORE_LA) -lusb-1.0
++	$(GNURADIO_CORE_LA) -lusb-1.0 -lpthread
+ 
+ libgnuradio_baz_la_LDFLAGS = \
+ 	$(NO_UNDEFINED)
