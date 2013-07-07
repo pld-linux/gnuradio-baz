@@ -2,7 +2,7 @@
 Summary:	GNU Radio additional functionality
 Name:		gnuradio-baz
 Version:	0.1
-Release:	0.%{snap}.3
+Release:	0.%{snap}.4
 License:	GPL v3
 Group:		Applications/Engineering
 URL:		http://wiki.spench.net/wiki/Gr-baz
