@@ -1,8 +1,9 @@
 %define	snap	20120412
+%define rel	5
 Summary:	GNU Radio additional functionality
 Name:		gnuradio-baz
 Version:	0.1
-Release:	0.%{snap}.4
+Release:	0.%{snap}.%{rel}
 License:	GPL v3
 Group:		Applications/Engineering
 URL:		http://wiki.spench.net/wiki/Gr-baz
