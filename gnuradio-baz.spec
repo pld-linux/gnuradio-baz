@@ -26,7 +26,7 @@ definitions, apps, etc).
 
 %prep
 %setup -q -n gr-baz
-%patch0 -p1
+%patch -P0 -p1
 
 %build
 sh ./bootstrap
